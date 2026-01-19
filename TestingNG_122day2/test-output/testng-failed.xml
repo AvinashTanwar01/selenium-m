@@ -5,9 +5,7 @@
     <classes>
       <class name="librun.lib1run">
         <methods>
-          <include name="reLogin"/>
-          <include name="logout"/>
-          <include name="testLogin"/>
+          <include name="alertmess"/>
         </methods>
       </class> <!-- librun.lib1run -->
     </classes>
