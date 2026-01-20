@@ -1,4 +1,4 @@
-package TestingNG_122day2.TestingNG_122day2;
+package TestingNG_1221_documentation123.TestingNG_1221_documentation123;
 
 /**
  * Hello world!

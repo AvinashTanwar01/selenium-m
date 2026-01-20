@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="librun.lib1run">
+      <class name="librun.NewTestlibday2">
         <methods>
-          <include name="alertmess"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- librun.lib1run -->
+      </class> <!-- librun.NewTestlibday2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
