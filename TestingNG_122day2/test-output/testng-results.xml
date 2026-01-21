@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-20T12:42:54 IST" name="Default suite" finished-at="2026-01-20T12:42:55 IST" duration-ms="703">
+  <suite started-at="2026-01-21T10:45:57 IST" name="Default suite" finished-at="2026-01-21T10:46:03 IST" duration-ms="5365">
     <groups>
     </groups>
-    <test started-at="2026-01-20T12:42:54 IST" name="Default test" finished-at="2026-01-20T12:42:55 IST" duration-ms="703">
-      <class name="librun.NewTestlibday2">
-        <test-method signature="f()[pri:0, instance:librun.NewTestlibday2@7ca33c24]" started-at="2026-01-20T12:42:54 IST" name="f" finished-at="2026-01-20T12:42:55 IST" duration-ms="681" status="PASS">
+    <test started-at="2026-01-21T10:45:57 IST" name="Default test" finished-at="2026-01-21T10:46:03 IST" duration-ms="5365">
+      <class name="librun.runDoucment">
+        <test-method signature="f1()[pri:0, instance:librun.runDoucment@4af0df05]" started-at="2026-01-21T10:45:57 IST" name="f1" finished-at="2026-01-21T10:46:02 IST" duration-ms="4628" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- librun.NewTestlibday2 -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:librun.runDoucment@4af0df05]" started-at="2026-01-21T10:46:02 IST" name="f2" finished-at="2026-01-21T10:46:03 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- librun.runDoucment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
