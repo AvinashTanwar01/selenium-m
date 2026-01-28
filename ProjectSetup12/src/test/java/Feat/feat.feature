@@ -17,16 +17,21 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: To test the basic calculator
-  Rule: This calculator has to be used for school students only 
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+Background:
+	Given: The user must be in chrome Broswer
+	
 
   @tag1
-  Scenario: To check i can perform addition
-    Given I am holding the calculator
-    When I enter the first number
-    And I click on + symbol
-    And I enter the second number
-    Then I must be able to view the sum of the numbers
+  Scenario: Login Validation
+    Given the user is in signup page
+    And User has entered the resgriration feilds
+    And user checks captcha
+    And user clicks on continue
+    Then user sees otp mobile
+
 
   @tag2
   Scenario Outline: Title of your scenario outline

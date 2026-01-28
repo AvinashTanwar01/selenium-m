@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 public class Githubapi {
 	public static void main(String[] args) {
 		RestAssured.baseURI="https://api.github.com";
-		String token ="";
+		String token ="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";
 		String ep2 ="/users/AvinashTanwar01/repos";
 		String line = statusline1(token,ep2);
 		String reponm= "{\"repomame\":\"testrepo\",\"id\":\"657\"}";

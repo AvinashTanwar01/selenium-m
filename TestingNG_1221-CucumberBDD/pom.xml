@@ -52,5 +52,10 @@
     <version>4.36.0</version>
     <scope>compile</scope>
 </dependency>
+  	<dependency>
+  		<groupId>TestingNG_12</groupId>
+  		<artifactId>TestingNG_12</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
